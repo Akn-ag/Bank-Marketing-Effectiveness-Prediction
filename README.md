@@ -93,3 +93,10 @@ So, we can initially formulate the required time to converge a lead using 'durat
 Here, the idea is to find out responses for any particular record with varying assumed predefined duration range.For example let's say, to converge a call, duration ranges between 60 to 2000 sec, then using this range we can predict all responses for each lead while iterating through this duration range. If we get positive response for any value of 'duration' we can assign that duration time to that particular lead.
 
 In this way we can help marketing team to get precise leads along with time required to converge that lead and also, those leads that have least proability to converge (if we get no positive response for any assumed duration). Thus, an effective marketing campaign can be executed with maximum leads converging to term deposit.
+
+###  **References:**
+
+*  For feature selection:https://scikitlearn.org/stable/modules/feature_selection.html 
+*  For metrics: https://scikitlearn.org/stable/modules/model_evaluation.html
+*  For shapley explainations: https://towardsdatascience.com/explainable-ai-xai-with-shap-multi-class-classification-problem-64dd30f97cea
+
